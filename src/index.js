@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import FechttApi from './components/FechttApi'
 import reportWebVitals from './reportWebVitals';
 
 
@@ -34,7 +33,7 @@ root.render(
 
   <React.StrictMode>
     <App />
-   <FechttApi/>
+  
 
   </React.StrictMode>
 );
