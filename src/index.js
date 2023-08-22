@@ -11,35 +11,32 @@ import reportWebVitals from './reportWebVitals';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-function Contador(){
+// function Contador(){
 
-  const state = useState()
+//   const state = useState()
 
-  console.log(state)
+//   console.log(state)
 
-  let cont = 10
-  return(
-    <div>
-      <h1>Contador : {cont}</h1>
-    <button onClick={() =>{
-      cont = cont + 10
-    }}>
-      Sumar
-    </button>
-    </div>
-  )
-}
+//   let cont = 10
+//   return(
+//     <div>
+//       <h1>Contador : {cont}</h1>
+//     <button onClick={() =>{
+//       cont = cont + 10
+//     }}>
+//       Sumar
+//     </button>
+//     </div>
+//   )
+// }
 root.render(
 
-  <Contador/>
-  // <React.StrictMode>
-  //   {/* <App /> */}
-  //   {/* <FechttApi/> */}
 
+  <React.StrictMode>
+    <App />
+   <FechttApi/>
 
-    
-
-  // </React.StrictMode>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
